@@ -1,0 +1,39 @@
+header {
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+}
+
+.flex-container {
+    font-family: 'Work Sans';
+    display: flex;
+    padding-left: 1240px;
+    padding-top: 95px;
+    padding-right: 155px;
+    float: left;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-flow: row wrap;
+    width: auto;
+    text-align: right;
+}
+
+.flex-heading {
+    Font-family: 'Work Sans';
+    color: white;
+    font-weight: 700;
+    Font-style: Bolder;
+    Font-size: 65px;
+    Line-height: 76px;
+    Line-height: 100%;
+}
+
+.flex-paragraph {
+    Font-family: 'Work Sans';
+    color: white;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 26px;
+    Line-height: 139%;
+}
