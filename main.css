@@ -1,3 +1,6 @@
+body{
+    font-family: 'Work Sans';
+}
 header {
     background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -20,20 +23,50 @@ header {
 }
 
 .flex-heading {
-    Font-family: 'Work Sans';
+    font-family: 'Work Sans';
     color: white;
     font-weight: 700;
-    Font-style: Bolder;
-    Font-size: 65px;
-    Line-height: 76px;
-    Line-height: 100%;
+    font-style: Bolder;
+    font-size: 65px;
+    line-height: 76px;
+    line-height: 100%;
 }
 
 .flex-paragraph {
-    Font-family: 'Work Sans';
+    font-family: 'Work Sans';
     color: white;
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 26px;
-    Line-height: 139%;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    line-height: 139%;
+}
+
+.header-button {
+    color: dodgerblue;
+    background-color: white;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    line-height: 100%;
+    padding: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* section styles */
+.section-container{
+    margin-top: 131px;
+    margin-left: 206px;
+    margin-right: 322px;
+    display: flex;
+    align-items: center;
+}
+.mark-icon{
+    height: 22px;
+    width: 24px;
+}
+.section-title{
+    /* justify-content: center; */
+    padding-right: 5px;
 }
